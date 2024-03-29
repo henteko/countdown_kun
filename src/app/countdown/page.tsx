@@ -30,7 +30,7 @@ function Countdown() {
   const businessDaysLeft3 = businessDays3 + "日";
 
   return (
-    <main className="flex min-h-screen items-center justify-center p-24">
+    <main className="flex min-h-screen items-center justify-center p-8">
       <div className="text-center">
         <h1 className="text-xl font-bold">Today: {today.toDateString()}</h1>
         <br/>
