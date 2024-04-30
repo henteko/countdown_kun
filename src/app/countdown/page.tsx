@@ -12,7 +12,7 @@ function Countdown() {
 
   const today = new Date();
   // @ts-ignore
-  const diffTime = Math.abs(eventDate - today);
+  const diffTime = eventDate - today;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   const daysLeft = (diffDays + "日");
 
